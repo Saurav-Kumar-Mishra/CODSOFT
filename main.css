@@ -1,0 +1,345 @@
+body{
+    background-color: #0b1e30;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Custom Navbar */
+.custom-navbar {
+    background: linear-gradient(to right, #ff6600, #ff44aa);
+    padding: 10px 0;
+  }
+  
+  .custom-navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  /* Custom Social Icons */
+  .custom-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-social-icon {
+    border-right: 2px solid #fff;
+    padding: 0 10px;
+  }
+  
+  .custom-social-icon:last-child {
+    border-right: none;
+  }
+  
+  .custom-social-icon a img {
+    width: 20px;
+  }
+  
+  /* Custom Contact Info */
+  .custom-contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .custom-phone,
+  .custom-email {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .custom-phone i,
+  .custom-email i {
+    margin-right: 5px;
+  }
+  
+  /* Custom Button */
+  .custom-button {
+    margin-top: 10px;
+  }
+  
+  .custom-call-button {
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-call-button:hover {
+    background-color: #fff;
+    color: #ff6600;
+  }
+  /* Custom Navigation Bar 2 */
+.custom-nav-bar-2 {
+    /* background: #ffffff; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    
+  }
+  
+  /* Custom Section 1 */
+  .custom-section-1 {
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem/* 8px */;
+    padding-bottom: 0.5rem/* 8px */;
+    justify-content: center;
+  }
+  
+  .custom-section-1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .custom-section-1 .font-bold {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #fff;
+  }
+  
+  /* Custom Navigation Section */
+  .custom-navigation-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-family: monospace;
+    gap: 12px;
+  }
+  
+  .custom-navigation-item {
+    cursor: pointer;
+    padding: 0 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    /* font-weight: 900; */
+  }
+  
+  .custom-navigation-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0 10px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-navigation-button:hover {
+    background-color: #ff44aa; /* Customize the hover color */
+  }
+  
+  /* Custom Search Icon */
+  .custom-search-icon {
+    background-color: #f0932b;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+  }
+  
+  .custom-search-icon img {
+    width: 20px;
+  }
+  
+  .section-1 img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 8/3.2;
+    object-fit: cover;
+    position: relative;
+  }
+  .centered-text {
+    font-size: 32px;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 25%; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    text-shadow:70px 2px 1px  rgba(226, 26, 189, 0.5); /* Text shadow */
+  }
+  /* Section 2 */
+  .section-2 {
+    background-image: linear-gradient(to right, #8000ff, #ff00cc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    padding: 30px 0;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .item {
+    width: 250px;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 50px;
+  }
+  
+  .title {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  /* About Us Section */
+.about-us-section {
+    position: relative;
+    color: black;
+  }
+  
+  .about-us-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 6/2.5;
+  }
+  
+  .about-us-title {
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 4px solid #e94e77;
+  }
+  
+  .about-us-avatar {
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    border-radius: 50%;
+    width: 30%;
+    animation: animate-box-shadow 3s infinite;
+  }
+  
+  @keyframes animate-box-shadow {
+    0% {
+        box-shadow: 0 0 10px -10px #aef4af;
+    }
+    50% {
+        box-shadow: 0 0 10px 10px #f9ca24;
+    }
+    100% {
+        box-shadow: 0 0 10px 10px #aef4af;
+    }
+  }
+  
+  .about-us-content {
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 16px;
+  }
+  
+  .about-us-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .about-us-button {
+    background: linear-gradient(to right, #f0932b, #e94e77);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+  
+
+  /* Our Services Section */
+.our-services-section {
+    position: relative;
+  }
+  
+  .our-services-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 6/2.8;
+  }
+  
+  .our-services-title {
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.3rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 40%;
+    border-bottom: 4px solid #e94e77;
+  }
+  
+  .our-services-content {
+    position: absolute;
+    top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 44rem;
+  }
+  
+  .our-services-content .our-service-card {
+    width: 45%;
+    padding: 2px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .our-services-content .our-service-card:hover {
+    transform: scale(1.25);
+  }
+  figure{
+    padding: 8px;
+    box-shadow: 0px 0px 5px 10px hotpink;
+  
+  }
+  .our-service-card img {
+    width: 100%;
+    border-radius: 10px;
+    
+  }
+  
+  .our-service-card figcaption {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+  
